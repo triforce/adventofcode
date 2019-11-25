@@ -9,9 +9,12 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: make_2018
+    - name: make_2018_1
       run: |
         cd ./2018/day1
         make
+    - name: make_2018_2
+      run: |
         cd ./2018/day2
         make
+        
