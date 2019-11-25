@@ -9,5 +9,9 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: make
-      run: make
+    - name: make_2018
+      run: |
+        cd ./2018/day1
+        make
+        cd ./2018/day2
+        make
